@@ -25,6 +25,7 @@
 # - Generally within 2~ boots, the original snapshot is discarded
 # - Monterey always preserves the original snapshot allowing for reliable rollbacks
 
+#!/usr/bin/env python3.10
 # Alternative to mounting via 'mount', Apple's update system uses 'mount_apfs' directly
 #   '/sbin/mount_apfs -R /dev/disk5s5 /System/Volumes/Update/mnt1'
 

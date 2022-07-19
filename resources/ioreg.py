@@ -81,7 +81,7 @@ kIORegistryIterateParents = 2
 
 
 # kern_return_t IORegistryEntryCreateCFProperties(io_registry_entry_t entry, CFMutableDictionaryRef * properties, CFAllocatorRef allocator, IOOptionBits options);
-def IORegistryEntryCreateCFProperties(entry: io_registry_entry_t, properties: pointer, allocator: CFAllocatorType, options: IOOptionBits) -> tuple[kern_return_t, dict]:  # pylint: disable=invalid-name
+def IORegistryEntryCreateCFProperties(entry: io_registry_entry_t, properties: pointer, allocator: CFAllocatorRef, options: IOOptionBits) -> tuple[kern_return_t, dict]:  # pylint: disable=invalid-name
     raise NotImplementedError
 
 

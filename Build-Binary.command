@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-
+#!/usr/bin/env python3.10
 # This script's main purpose is to handle the following:
 #   - Download PatcherSupportPkg resources
 #   - Convert payloads directory into DMG (GUI only)
@@ -50,19 +49,18 @@ class create_binary:
 
     def setup_pathing(self):
         python_path = sys.executable
-        python_binary = python_path.split("/")[-1]
-        python_bin_dir = python_path.strip(python_binary)
+        python_binary = python_path
+        python_bin_dir = python_path.split("/")[-1]
 
         # macOS (using Python installed by homebrew (e.g. brew))
-        if f"/usr/local/opt/python@3." in sys.executable:
-            print(f"\t* NOTE: home(brew) python3 detected; using (sys.exec_prefix, python_path) ==> {sys.exec_prefix, python_path}")
-            # - under brew, pip3 will install pyinstaller at:
-            #   /usr/local/lib/python3.9/site-packages/pyinstaller
-            #   and /usr/local/bin/pyinstaller stub to load and run.
+        # if f"/usr/local/bin/python3." in sys.executable:
+        #    print(f"\t* NOTE: home(brew) python3 detected; using (sys.exec_prefix, python_path) ==> {sys.exec_prefix, python_path}")
+        #    pyinstaller_path = f"{sys.exec_prefix}/bin/pyinstaller"
+        # else:
+        #    pyinstaller_path = f"{sys.exec_prefix}/bin/{python_bin_dir}/site-packages/pyinstaller"
 
-            pyinstaller_path = f"/usr/local/bin/pyinstaller"
-        else:
-            pyinstaller_path = f"{python_bin_dir}pyinstaller"
+        # since macos 10.15 Catalina, we recommend to use this formula
+        pyinstaller_path = f"{sys.exec_prefix}/bin/pyinstaller"
 
         if not Path(pyinstaller_path).exists():
             print(f"  - pyinstaller not found:\n\t{pyinstaller_path}")
@@ -101,10 +99,10 @@ class create_binary:
 
         if self.args.build_tui:
             print("- Building TUI binary...")
-            build_args = [self.pyinstaller_path, "./OpenCore-Patcher.spec", "--noconfirm"]
+            build_args = [f"/usr/bin/sudo -H {self.pyinstaller_path} ./OpenCore-Patcher.spec", '--noconfirm']
         else:
             print("- Building GUI binary...")
-            build_args = [self.pyinstaller_path, "./OpenCore-Patcher-GUI.spec", "--noconfirm"]
+            build_args = [f"/usr/bin/sudo -H {self.pyinstaller_path} ./OpenCore-Patcher-GUI.spec", '--noconfirm']
 
         build_result = subprocess.run(build_args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         if build_result.returncode != 0:

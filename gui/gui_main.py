@@ -3,13 +3,9 @@
 # Currently Work in Progress
 
 import plistlib
-import wx
-import sys
 import webbrowser
 import subprocess
 import time
-import os
-import wx.adv
 from wx.lib.agw import hyperlink
 import threading
 from pathlib import Path
@@ -20,9 +16,10 @@ from resources import constants, defaults, build, install, installer, sys_patch_
 from data import model_array, os_data, smbios_data, sip_data
 from gui import menu_redirect, gui_help
 
-
+wx.BG_STYLE_CUSTOM = wx.BG_STYLE_PAINT
 class wx_python_gui:
     def __init__(self, versions, frame=None, frame_modal=None):
+        self.SetBackgroundStyle(wx.BG_STYLE_CUSTOM)
         self.constants: constants.Constants = versions
         self.computer = self.constants.computer
         self.constants.gui_mode = True

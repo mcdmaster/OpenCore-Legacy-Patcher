@@ -1,8 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-import sys, os, time, subprocess, pathlib
+import sys, os, time, subprocess, pathlib, plistlib, constants
 sys.path.append(os.path.abspath(os.getcwd()))
-from resources import constants
+
 block_cipher = None
 
 datas = [
@@ -44,6 +44,7 @@ exe = EXE(pyz,
           target_arch="universal2",
           codesign_identity=None,
           entitlements_file=None )
+
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
@@ -52,14 +53,15 @@ coll = COLLECT(exe,
                upx=True,
                upx_exclude=[],
                name='OpenCore-Patcher')
+
 app = BUNDLE(coll,
              name='OpenCore-Patcher.app',
              icon="payloads/OC-Patcher.icns",
              bundle_identifier="com.dortania.opencore-legacy-patcher",
              info_plist={
                 "CFBundleName": "OpenCore Legacy Patcher",
-                "CFBundleShortVersionString": constants.Constants().patcher_version,
-                "NSHumanReadableCopyright": constants.Constants().copyright_date,
+                "CFBundleShortVersionString": '{constants.Constants().patcher_version}',
+                "NSHumanReadableCopyright": '{constants.Constants().copyright_date}',
                 "LSMinimumSystemVersion": "10.10.0",
                 "NSRequiresAquaSystemAppearance": False,
                 "NSHighResolutionCapable": True,

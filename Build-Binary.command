@@ -13,7 +13,7 @@ import subprocess
 
 from pathlib import Path
 
-from resources import constants
+# from resources import constants
 
 
 class CreateBinary:
@@ -266,7 +266,11 @@ class CreateBinary:
         Download required dependencies
         """
 
-        patcher_support_pkg_version = constants.Constants().patcher_support_pkg_version
+        import resources
+        import constants
+
+        patcher_support_pkg_version = '{constants.Constants().patcher_support_pkg_version}'
+        
         required_resources = [
             "Universal-Binaries.dmg"
         ]

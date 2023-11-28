@@ -267,7 +267,6 @@ class CreateBinary:
         """
 
         import resources
-        import constants
 
         patcher_support_pkg_version = '{constants.Constants().patcher_support_pkg_version}'
         

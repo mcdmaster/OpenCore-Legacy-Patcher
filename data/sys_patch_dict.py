@@ -276,6 +276,10 @@ class SystemPatchDictionary():
                         },
                     },
                     "Install": {
+                        "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks": {
+                            "Metal.framework":                   "14.2",
+                            "MetalPerformanceShaders.framework": "14.2",
+                        },
                         "/System/Library/Frameworks": {
                             "Metal.framework":                   "12.5",
                             "MetalPerformanceShaders.framework": "12.5",
@@ -352,8 +356,15 @@ class SystemPatchDictionary():
                         },
                     },
                     "Install": {
+                        "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks": {
+                            "Metal.framework": f"14.2-3802-{self.os_major}",
+                        },
                         "/System/Library/Frameworks": {
                             "Metal.framework": f"12.5-3802-{self.os_major}",
+                        },
+                        "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks": {
+                            "MTLCompiler.framework": "14.2-3802",
+                            "GPUCompiler.framework": "14.2-3802",
                         },
                         "/System/Library/PrivateFrameworks": {
                             "MTLCompiler.framework": "12.5-3802",
@@ -380,14 +391,23 @@ class SystemPatchDictionary():
                         },
                     },
                     "Install": {
-                        "/System/Library/Frameworks": {
-                            "Metal.framework": f"13.2.1-{self.os_major}",
+                        "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks": {
+                            "Metal.framework": f"14.2-{self.os_major}",
                             **({  "CoreImage.framework": "14.0 Beta 3" } if self.os_major >= os_data.os_data.sonoma else {}),
                         },
+                        # "/System/Library/Frameworks": {
+                        #     "Metal.framework": f"13.2.1-{self.os_major}",
+                        #     **({  "CoreImage.framework": "14.0 Beta 3" } if self.os_major >= os_data.os_data.sonoma else {}),
+                        # },
+                        "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks": {
+                            **({  "MTLCompiler.framework": "14.2" } if self.os_major == os_data.os_data.sonoma else {}),
+                            **({  "GPUCompiler.framework": "14.2" } if self.os_major == os_data.os_data.sonoma else {}),
+                            "RenderBox.framework": "14.2-3802"      if self.os_major == os_data.os_data.sonoma else "14.0-3802",
+                        },
                         "/System/Library/PrivateFrameworks": {
-                            **({  "MTLCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
-                            **({  "GPUCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
-                            "RenderBox.framework": "13.2.1-3802"      if self.os_major == os_data.os_data.ventura else "14.0-3802",
+                           **({  "MTLCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
+                           **({  "GPUCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
+                           "RenderBox.framework": "13.2.1-3802"      if self.os_major == os_data.os_data.ventura else "14.0-3802",
                         },
                     },
                 },
@@ -587,6 +607,10 @@ class SystemPatchDictionary():
                             "GeForceGLDriver.bundle":  "11.0 Beta 3",
                             "GeForceMTLDriver.bundle": "11.0 Beta 3" if self.os_major <= os_data.os_data.monterey else f"11.0 Beta 3-22",
                             "GeForceVADriver.bundle":  "12.0 Beta 6",
+                        },
+                        "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks": {
+                            # XNU 21.6 (macOS 14.2)
+                            **({ "Metal.framework": "14.0 Beta 3"} if (self.os_float >= self.macOS_14_2 and self.os_major < os_data.os_data.sonoma) else {}),
                         },
                         "/System/Library/Frameworks": {
                             # XNU 21.6 (macOS 12.5)

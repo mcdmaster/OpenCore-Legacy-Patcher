@@ -71,6 +71,7 @@ class SystemPatchDictionary():
         self.macOS_12_5:          float = 21.6
         self.macOS_13_3:          float = 22.4
         self.macOS_14_1:          float = 23.1
+        self.macOS_14_2:          float = 23.2
 
         self._generate_sys_patch_dict()
 
@@ -405,9 +406,9 @@ class SystemPatchDictionary():
                             "RenderBox.framework": "14.2-3802"      if self.os_major == os_data.os_data.sonoma else "14.0-3802",
                         },
                         "/System/Library/PrivateFrameworks": {
-                           **({  "MTLCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
-                           **({  "GPUCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
-                           "RenderBox.framework": "13.2.1-3802"      if self.os_major == os_data.os_data.ventura else "14.0-3802",
+                            **({  "MTLCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
+                            **({  "GPUCompiler.framework": "13.2.1" } if self.os_major == os_data.os_data.ventura else {}),
+                            "RenderBox.framework": "13.2.1-3802"      if self.os_major == os_data.os_data.ventura else "14.0-3802",
                         },
                     },
                 },

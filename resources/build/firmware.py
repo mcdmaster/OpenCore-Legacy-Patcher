@@ -171,7 +171,7 @@ class BuildFirmware:
         # HID patches
         if smbios_data.smbios_dictionary[self.model]["CPU Generation"] <= cpu_data.CPUGen.penryn.value:
             logging.info("- Adding IOHIDFamily patch")
-            support.BuildSupport(self.model, self.constants, self.config).get_item_by_kv(self.config["Kernel"]["Patch"], "Identifier", "com.apple.iokit.IOHIDFamily")["Enabled"] = True
+            support.BuildSupport(self.model, self.constants, self.config).get_item_by_kv(self.config["Kernel"]["Patch"], "Identifier", "com.apple.developer.driverkit.family.hid.device")[] = True
 
 
     def _firmware_driver_handling(self) -> None:

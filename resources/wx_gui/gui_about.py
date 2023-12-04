@@ -3,6 +3,7 @@
 import wx
 import wx.adv
 import logging
+import resources.wx_gui
 
 from resources.wx_gui import gui_support
 

@@ -7,6 +7,7 @@ import plistlib
 import traceback
 import threading
 import subprocess
+import resources.wx_gui
 
 from pathlib import Path
 

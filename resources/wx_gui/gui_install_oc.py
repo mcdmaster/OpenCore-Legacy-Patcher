@@ -2,11 +2,11 @@ import wx
 import threading
 import logging
 import traceback
+import resources.wx_gui 
 
-from resources.wx_gui import gui_main_menu, gui_support, gui_sys_patch_display
 from resources import constants, install
 from data import os_data
-
+from resources.wx_gui import gui_main_menu, gui_support, gui_sys_patch_display
 
 class InstallOCFrame(wx.Frame):
     """

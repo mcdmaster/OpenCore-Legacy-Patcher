@@ -7,14 +7,32 @@ import plistlib
 import shutil
 import zipfile
 import logging
+import resources
+import resources.build
 
 from pathlib import Path
 from datetime import date
 
 from resources import constants, utilities
-from resources.build import bluetooth, firmware, graphics_audio, support, storage, smbios, security, misc
-from resources.build.networking import wired, wireless
 
+from resources.build import (
+    bluetooth,
+    graphics_audio,
+    support, 
+    storage, 
+    smbios, 
+    security,
+    misc,
+    build,
+)
+
+import resources.build.networking
+from resources.build.networking import (
+    wired, wireless,
+)
+
+import resources.build.firmware
+from resources.build.firmware import BuildFirmware
 
 def rmtree_handler(func, path, exc_info) -> None:
     if exc_info[0] == FileNotFoundError:
@@ -29,8 +47,9 @@ class BuildOpenCore:
     """
 
     def __init__(self, model: str, global_constants: constants.Constants) -> None:
+        
         self.model: str = model
-        self.config: dict = None
+        # self.config: dict = None
         self.constants: constants.Constants = global_constants
 
         self._build_opencore()
@@ -53,7 +72,7 @@ class BuildOpenCore:
 
         # Call support functions
         for function in [
-            firmware.BuildFirmware,
+            BuildFirmware,
             wired.BuildWiredNetworking,
             wireless.BuildWirelessNetworking,
             graphics_audio.BuildGraphicsAudio,

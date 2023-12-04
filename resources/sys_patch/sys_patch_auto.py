@@ -16,7 +16,6 @@ from pathlib import Path
 
 from resources import utilities, updates, global_settings, network_handler, constants
 from resources.sys_patch import sys_patch_detect
-from resources.wx_gui import gui_entry, gui_support
 
 
 class AutomaticSysPatch:

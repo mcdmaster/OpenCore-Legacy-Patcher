@@ -4,15 +4,16 @@ import logging
 import plistlib
 import threading
 import subprocess
+import resources
+import resources.build
+import resources.sys_patch
+
+from resources import defaults, utilities, validation, constants
+from resources.build import *
+from resources.sys_patch import sys_patch, sys_patch_auto
 
 from pathlib import Path
-
 from data import model_array, os_data
-from resources.build import build
-from resources.sys_patch import sys_patch, sys_patch_auto
-from resources import defaults, utilities, validation, constants
-from resources.wx_gui import gui_entry
-
 
 # Generic building args
 class arguments:
@@ -252,4 +253,4 @@ If you plan to create the USB for another machine, please select the "Change Mod
             self.constants.allow_oc_everywhere = True
             self.constants.serial_settings = "None"
 
-        build.BuildOpenCore(self.constants.custom_model or self.constants.computer.real_model, self.constants)
+        build(BuildOpenCore(self.constants.custom_model or self.constants.computer.real_model, self.constants))

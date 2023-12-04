@@ -5,22 +5,22 @@ import sys
 import time
 import logging
 import threading
-from pathlib import Path
+import resources.wx_gui
 
-from resources.wx_gui import gui_entry
 from resources import (
     constants,
     utilities,
     device_probe,
     os_probe,
     defaults,
-    arguments,
     reroute_payloads,
     commit_info,
     logging_handler,
     analytics_handler,
 )
-
+from resources import arguments
+from resources.wx_gui import gui_entry
+from pathlib import Path
 
 class OpenCoreLegacyPatcher:
     """
@@ -28,6 +28,7 @@ class OpenCoreLegacyPatcher:
     """
 
     def __init__(self) -> None:
+
         self.constants: constants.Constants = constants.Constants()
 
         logging_handler.InitializeLoggingSupport(self.constants)
@@ -35,6 +36,7 @@ class OpenCoreLegacyPatcher:
         self._generate_base_data()
 
         if utilities.check_cli_args() is None:
+            
             gui_entry.EntryPoint(self.constants).start()
 
 

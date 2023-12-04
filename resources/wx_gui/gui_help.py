@@ -2,6 +2,7 @@
 import wx
 import logging
 import webbrowser
+import resources.wx_gui
 
 from resources import constants
 

@@ -12,6 +12,7 @@ from pathlib import Path
 import applescript
 import packaging.version
 import wx
+import resources.wx_gui
 
 from data import model_array, os_data, smbios_data
 from resources import constants, device_probe

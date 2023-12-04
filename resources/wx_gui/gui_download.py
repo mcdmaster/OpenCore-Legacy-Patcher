@@ -1,6 +1,7 @@
 # Generate UI for downloading files
 import wx
 import logging
+import resources.wx_gui
 
 from resources import (
     constants,

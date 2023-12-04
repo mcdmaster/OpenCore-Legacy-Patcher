@@ -8,6 +8,7 @@ import sys
 import time
 import logging
 import threading
+import resources.wx_gui
 
 from pathlib import Path
 

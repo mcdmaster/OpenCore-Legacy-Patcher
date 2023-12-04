@@ -6,6 +6,7 @@ import logging
 import datetime
 import threading
 import subprocess
+import resources.wx_gui
 
 from pathlib import Path
 

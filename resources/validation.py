@@ -1,9 +1,10 @@
 import logging
 import subprocess
+
 from pathlib import Path
 
 from resources.sys_patch import sys_patch_helpers
-from resources.build import build
+from resources.build import *
 from resources import constants, network_handler
 from data import example_data, model_array, sys_patch_dict, os_data
 

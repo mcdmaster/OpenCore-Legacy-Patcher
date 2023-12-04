@@ -5,10 +5,11 @@ import plistlib
 import tempfile
 import threading
 import subprocess
+import resources
+import resources.wx_gui
 
 from pathlib import Path
 
-from resources.wx_gui import gui_main_menu, gui_build, gui_support
 from resources import (
     constants,
     macos_installer_handler,
@@ -16,8 +17,14 @@ from resources import (
     network_handler,
     kdk_handler,
 )
-from data import os_data
 
+from resources.wx_gui import (
+    gui_main_menu, 
+    gui_build, 
+    gui_support,
+)
+
+from data import os_data
 
 class macOSInstallerFlashFrame(wx.Frame):
 

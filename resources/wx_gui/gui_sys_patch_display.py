@@ -4,6 +4,7 @@ import os
 import logging
 import plistlib
 import threading
+import resources.wx_gui
 
 from pathlib import Path
 

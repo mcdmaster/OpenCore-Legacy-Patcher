@@ -5,7 +5,6 @@
 import logging
 import plistlib
 import subprocess
-import applescript
 
 from pathlib import Path
 
@@ -91,16 +90,23 @@ class tui_disk_installation:
         logging.info(f"Mounting partition: {full_disk_identifier}")
         if self.constants.detected_os >= os_data.os_data.el_capitan and not self.constants.recovery_status:
             try:
-                run = applescript.run(f'''do shell script "diskutil mount {full_disk_identifier}" with prompt "OpenCore Legacy Patcher needs administrator privileges to mount this volume." with administrator privileges without altering line endings''')
-            except run.err as e:
-                if "User canceled" in str(e):
-                    logging.info("Mount cancelled by user")
-                    return
-                logging.info(f"An error occurred: {e}")
-                if utilities.check_boot_mode() == "safe_boot":
-                    logging.info("\nSafe Mode detected. FAT32 is unsupported by macOS in this mode.")
-                    logging.info("Please disable Safe Mode and try again.")
-                    return
+                # run = applescript.run(f'''do shell script "diskutil mount {full_disk_identifier}" with prompt "OpenCore Legacy Patcher needs administrator privileges to mount this volume." with administrator privileges without altering line endings''')
+                run = subprocess.run(
+                    ['osascript', '-'],
+                    input=f'''do shell script "diskutil mount {full_disk_identifier}" with prompt "OpenCore Legacy Patcher needs administrator privileges to mount this volume." with administrator privileges without altering line endings''',
+                    text=True,
+                    capture_output=True
+                )
+            except run.returncode as ret:
+                # if "User canceled" in str(e):
+                #   logging.info("Mount cancelled by user")
+                #    return
+                if ret != 0:
+                    logging.info(f"An error occurred: {ret.stderr.rstrip()}")
+                    if utilities.check_boot_mode() == "safe_boot":
+                        logging.info("\nSafe Mode detected. FAT32 is unsupported by macOS in this mode.")
+                        logging.info("Please disable Safe Mode and try again.")
+                        return
         else:
             result = subprocess.run(f"diskutil mount {full_disk_identifier}".split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             if result.returncode != 0:

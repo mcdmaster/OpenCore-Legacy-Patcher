@@ -3,6 +3,7 @@ import wx
 import sys
 import atexit
 import logging
+import resources.wx_gui
 
 from resources import constants
 from resources.wx_gui import (

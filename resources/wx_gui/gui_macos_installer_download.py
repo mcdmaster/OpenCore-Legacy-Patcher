@@ -3,6 +3,7 @@ import logging
 import threading
 import webbrowser
 import locale
+import resources.wx_gui
 
 from pathlib import Path
 

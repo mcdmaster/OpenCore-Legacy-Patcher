@@ -5,6 +5,7 @@ import logging
 import py_sip_xnu
 import subprocess
 import os
+import resources.wx_gui
 
 from pathlib import Path
 from resources.sys_patch.sys_patch import PatchSysVolume

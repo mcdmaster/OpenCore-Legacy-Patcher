@@ -3,15 +3,16 @@ import wx
 import logging
 import threading
 import traceback
+import resources
+import resources.build
+import resources.wx_gui
 
 from resources import constants
-from resources.build import build
 from resources.wx_gui import (
     gui_main_menu,
     gui_install_oc,
     gui_support
 )
-
 
 class BuildFrame(wx.Frame):
     """
@@ -120,6 +121,7 @@ class BuildFrame(wx.Frame):
         logger = logging.getLogger()
         logger.addHandler(gui_support.ThreadHandler(self.text_box))
         try:
+            from resources.build import build
             build.BuildOpenCore(self.constants.custom_model or self.constants.computer.real_model, self.constants)
         except:
             logging.error("An internal error occurred while building:\n")

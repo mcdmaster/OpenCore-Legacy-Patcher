@@ -10,6 +10,7 @@ import logging
 import threading
 import webbrowser
 import subprocess
+import resources.wx_gui
 
 from pathlib import Path
 

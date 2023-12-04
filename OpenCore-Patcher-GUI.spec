@@ -1,6 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-import sys, os, time, subprocess, pathlib, plistlib, constants
+import sys, os, time, subprocess, pathlib, plistlib
+
 sys.path.append(os.path.abspath(os.getcwd()))
 
 block_cipher = None
@@ -41,7 +42,7 @@ exe = EXE(pyz,
           upx=True,
           console=False,
           disable_windowed_traceback=False,
-          target_arch="universal2",
+          target_arch="x86_64",
           codesign_identity=None,
           entitlements_file=None )
 

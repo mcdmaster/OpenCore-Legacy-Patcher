@@ -51,6 +51,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AGPM</string>
 			<key>IOClass</key>
+			<string>IOHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AGPMController</string>
 			<key>IONameMatch</key>
 			<string>AGPMEnabler</string>

@@ -22,8 +22,10 @@
         <dict>
           <key>Desc-Key</key>
           <string>CPU_PLIMIT</string>
-          <key>IOClass</key>
-          <string>AppleSMCControl</string>
+			    <key>IOClass</key>
+			    <string>IOHIDDevice</string>
+			    <key>IOUserClass</key>
+			    <string>AppleSMCControl</string>
           <key>control-flags</key>
           <integer>2</integer>
           <key>control-id</key>
@@ -36,8 +38,10 @@
         <dict>
           <key>Desc-Key</key>
           <string>CPU_STATE</string>
-          <key>IOClass</key>
-          <string>AppleSMCControl</string>
+			    <key>IOClass</key>
+			    <string>IOHIDDevice</string>
+			    <key>IOUserClass</key>
+			    <string>AppleSMCControl</string>
           <key>control-flags</key>
           <integer>2</integer>
           <key>control-id</key>
@@ -50,8 +54,10 @@
         <dict>
           <key>Desc-Key</key>
           <string>GPU_RANGE_CONTROL_INTERNAL</string>
-          <key>IOClass</key>
-          <string>IOPlatformControl</string>
+			<key>IOClass</key>
+			<string>IOHIDDevice</string>
+			<key>IOUserClass</key>
+			<string>IOPlatformControl</string>
           <key>control-flags</key>
           <integer>2</integer>
           <key>control-id</key>
@@ -64,8 +70,10 @@
         <dict>
           <key>Desc-Key</key>
           <string>GPU_RANGE_CONTROL_EXTERNAL</string>
-          <key>IOClass</key>
-          <string>IOPlatformControl</string>
+			    <key>IOClass</key>
+			    <string>IOHIDDevice</string>
+			    <key>IOUserClass</key>
+			    <string>IOPlatformControl</string>
           <key>control-flags</key>
           <integer>2</integer>
           <key>control-id</key>
@@ -82,6 +90,8 @@
           <key>Description</key>
           <string>SMC_CPU_Control_Loop</string>
           <key>IOClass</key>
+	        <string>IOHIDDevice</string>
+	        <key>IOUserClass</key>
           <string>ACPI_SMC_CtrlLoop</string>
           <key>PLimitClass</key>
           <array>
@@ -176,6 +186,8 @@ BAAAIAAAAA0AAAADAAAAIAYAAAgKAAAdAAAF/w==
             </array>
           </dict>
           <key>IOClass</key>
+	        <string>IOHIDDevice</string>
+	        <key>IOUserClass</key>
           <string>ACPI_SMC_GPU_CtrlLoop</string>
           <key>PLimitClass</key>
           <array>

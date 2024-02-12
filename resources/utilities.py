@@ -6,16 +6,22 @@ import binascii
 import logging
 import math
 import os
+import os.path
+
+from pathlib import Path
+
+import data
+from data import os_data, sip_data
+
+from . import constants, ioreg
+
 import plistlib
+import py_sip_xnu
+
+import objc
 import re
 import shutil
 import subprocess
-from pathlib import Path
-import py_sip_xnu
-
-from data import os_data, sip_data
-from resources import constants, ioreg
-
 
 def hexswap(input_hex: str):
     hex_pairs = [input_hex[i : i + 2] for i in range(0, len(input_hex), 2)]

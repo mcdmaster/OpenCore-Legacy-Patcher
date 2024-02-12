@@ -21,6 +21,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleACPIPlatform</string>
 			<key>IOClass</key>
+			<string>IOHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleACPICPU</string>
 			<key>IONameMatch</key>
 			<string>processor</string>

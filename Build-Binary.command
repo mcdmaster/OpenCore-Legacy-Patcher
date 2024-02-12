@@ -424,7 +424,7 @@ class CreateBinary:
 
         print("- Validating binary")
         validate_output = subprocess.run(
-            ["./dist/OpenCore-Patcher.app/Contents/MacOS/OpenCore-Patcher", "--build", "--model", "MacPro3,1"],
+            ["/usr/bin/open", "./dist/OpenCore-Patcher.app", "--args", "--build", "--model", "MacBookPro9,1"],
             stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         if validate_output.returncode != 0:

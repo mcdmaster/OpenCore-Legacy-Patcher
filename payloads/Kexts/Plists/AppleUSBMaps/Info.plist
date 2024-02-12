@@ -21,6 +21,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -43,6 +45,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -65,6 +69,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -87,6 +93,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -109,6 +117,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -131,6 +141,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -153,6 +165,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -175,6 +189,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -197,6 +213,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -219,6 +237,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -241,6 +261,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -263,6 +285,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -285,6 +309,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -307,6 +333,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -329,6 +357,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -351,6 +381,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -373,6 +405,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -395,6 +429,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -417,6 +453,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -439,6 +477,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -461,6 +501,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -483,6 +525,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -505,6 +549,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -527,6 +573,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -549,6 +597,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -571,6 +621,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -593,6 +645,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -615,6 +669,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -637,6 +693,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -659,6 +717,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -681,6 +741,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -703,6 +765,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -725,6 +789,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -747,6 +813,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -769,6 +837,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -791,6 +861,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -813,6 +885,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -835,6 +909,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -857,6 +933,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -879,6 +957,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -901,6 +981,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -923,6 +1005,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -945,6 +1029,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -967,6 +1053,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -989,6 +1077,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1038,6 +1128,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1073,6 +1165,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1122,6 +1216,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1157,6 +1253,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1199,6 +1297,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1234,6 +1334,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1269,6 +1371,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1311,6 +1415,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1360,6 +1466,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1388,6 +1496,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1437,6 +1547,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1465,6 +1577,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1514,6 +1628,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1549,6 +1665,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1579,6 +1697,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1616,6 +1736,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1653,6 +1775,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1690,6 +1814,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1753,6 +1879,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1802,6 +1930,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1865,6 +1995,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -1914,6 +2046,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -1963,6 +2097,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2005,6 +2141,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2054,6 +2192,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2103,6 +2243,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2152,6 +2294,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2194,6 +2338,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2243,6 +2389,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2285,6 +2433,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2334,6 +2484,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2376,6 +2528,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2406,6 +2560,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2436,6 +2592,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2466,6 +2624,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2496,6 +2656,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2531,6 +2693,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2587,6 +2751,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2617,6 +2783,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2654,6 +2822,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2684,6 +2854,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2721,6 +2893,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -2751,6 +2925,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -2788,6 +2964,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EHCI</string>
@@ -2865,6 +3043,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>UHC3</string>
@@ -3013,6 +3193,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3076,6 +3258,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3139,6 +3323,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3188,6 +3374,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3230,6 +3418,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3265,6 +3455,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3314,6 +3506,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3344,6 +3538,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3374,6 +3570,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3404,6 +3602,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3434,6 +3634,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3464,6 +3666,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3494,6 +3698,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBEHCIPCI</string>
@@ -3532,6 +3738,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EHC1</string>
@@ -3595,6 +3803,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EHC2</string>
@@ -3644,6 +3854,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>UHC4</string>
@@ -3666,6 +3878,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3729,6 +3943,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3778,6 +3994,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3827,6 +4045,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3869,6 +4089,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3918,6 +4140,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -3969,6 +4193,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -3999,6 +4225,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -4029,6 +4257,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -4059,6 +4289,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -4089,6 +4321,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -4119,6 +4353,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -4149,6 +4385,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -4179,6 +4417,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -4216,6 +4456,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -4246,6 +4488,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -4283,6 +4527,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4325,6 +4571,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4360,6 +4608,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4402,6 +4652,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4437,6 +4689,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4472,6 +4726,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4507,6 +4763,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4542,6 +4800,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4584,6 +4844,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4626,6 +4888,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4654,6 +4918,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4696,6 +4962,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4724,6 +4992,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4766,6 +5036,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4794,6 +5066,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4836,6 +5110,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4878,6 +5154,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -4920,6 +5198,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -4969,6 +5249,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5011,6 +5293,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5046,6 +5330,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5088,6 +5374,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5123,6 +5411,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5172,6 +5462,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5214,6 +5506,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5242,6 +5536,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5291,6 +5587,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5340,6 +5638,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5382,6 +5682,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5417,6 +5719,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5466,6 +5770,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5508,6 +5814,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5550,6 +5858,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5592,6 +5902,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5634,6 +5946,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5676,6 +5990,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5718,6 +6034,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC1</string>
@@ -5760,6 +6078,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>OHC2</string>
@@ -5802,6 +6122,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -5824,6 +6146,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -5846,6 +6170,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -5864,6 +6190,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -5886,6 +6214,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -5916,6 +6246,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -5946,6 +6278,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -5997,6 +6331,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6019,6 +6355,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6049,6 +6387,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -6079,6 +6419,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6130,6 +6472,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6152,6 +6496,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6170,6 +6516,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6233,6 +6581,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6255,6 +6605,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6273,6 +6625,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6347,6 +6701,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6369,6 +6725,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6391,6 +6749,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6458,6 +6818,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6480,6 +6842,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6510,6 +6874,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -6540,6 +6906,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6591,6 +6959,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6613,6 +6983,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6643,6 +7015,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -6673,6 +7047,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6724,6 +7100,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6746,6 +7124,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6764,6 +7144,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6838,6 +7220,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6860,6 +7244,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -6878,6 +7264,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -6896,6 +7284,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -6970,6 +7360,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -6992,6 +7384,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -7010,6 +7404,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -7028,6 +7424,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -7102,6 +7500,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -7124,6 +7524,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -7198,6 +7600,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -7220,6 +7624,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -7294,6 +7700,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -7316,6 +7724,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -7334,6 +7744,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -7401,9 +7813,11 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>AppleUserHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
-			<string>AppleUSBHostResources</string>
+			<string>IOUSBHostInterface</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBSleepPortCurrentLimit</key>
@@ -7423,11 +7837,13 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>AppleUserHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
-			<key>IOProviderClass</key>
-			<string>AppleUSBEHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
@@ -7453,11 +7869,13 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>AppleUserHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
-			<key>IOProviderClass</key>
-			<string>AppleUSBEHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
@@ -7483,9 +7901,13 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>AppleUserHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
-			<string>AppleUSB20InternalHub</string>
+			<string>IOUSBHostInterface</string>
+			<key>IONameMatch</key>
+			<string>InternalHub</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
@@ -7516,11 +7938,13 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>AppleUserHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
@@ -7567,6 +7991,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -7589,6 +8015,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -7619,6 +8047,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -7649,6 +8079,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -7700,6 +8132,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -7763,6 +8197,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -7826,6 +8262,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -7848,6 +8286,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -7876,6 +8316,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalIntelHub</string>
@@ -7904,6 +8346,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -7981,6 +8425,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -8003,6 +8449,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -8033,6 +8481,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -8063,6 +8513,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -8142,6 +8594,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -8164,6 +8618,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -8194,6 +8650,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -8224,6 +8682,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -8303,6 +8763,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -8325,6 +8787,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -8343,6 +8807,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -8445,6 +8911,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -8550,6 +9018,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -8572,6 +9042,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -8602,6 +9074,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -8632,6 +9106,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalIntelHub</string>
@@ -8678,6 +9154,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalHub</string>
@@ -8706,6 +9184,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -8785,6 +9265,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -8807,6 +9289,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -8837,6 +9321,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -8867,6 +9353,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalIntelHub</string>
@@ -8913,6 +9401,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalHub</string>
@@ -8941,6 +9431,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9020,6 +9512,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -9042,6 +9536,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -9072,6 +9568,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -9102,6 +9600,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalIntelHub</string>
@@ -9148,6 +9648,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSB20InternalHub</string>
@@ -9176,6 +9678,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9255,6 +9759,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -9277,6 +9783,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -9295,6 +9803,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -9313,6 +9823,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9404,6 +9916,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -9426,6 +9940,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -9444,6 +9960,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -9462,6 +9980,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9553,6 +10073,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -9575,6 +10097,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -9593,6 +10117,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -9611,6 +10137,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9702,6 +10230,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -9724,6 +10254,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -9742,6 +10274,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9833,6 +10367,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -9855,6 +10391,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -9873,6 +10411,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -9891,6 +10431,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -9989,6 +10531,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBHostResources</string>
@@ -10011,6 +10555,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -10029,6 +10575,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH01</string>
@@ -10070,6 +10618,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>EH02</string>
@@ -10088,6 +10638,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -10179,6 +10731,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -10283,6 +10837,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -10387,6 +10943,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>
@@ -10519,6 +11077,8 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
+			<string>IOUserUSBHostHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>SHC1</string>

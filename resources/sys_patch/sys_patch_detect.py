@@ -46,13 +46,13 @@ class DetectRootPatch:
 
         # GPU Patch Detection
         self.nvidia_tesla   = False
-        self.kepler_gpu     = False
-        self.nvidia_web     = False
+        self.kepler_gpu     = True
+        self.nvidia_web     = True
         self.amd_ts1        = False
         self.amd_ts2        = False
         self.iron_gpu       = False
         self.sandy_gpu      = False
-        self.ivy_gpu        = False
+        self.ivy_gpu        = True
         self.haswell_gpu    = False
         self.broadwell_gpu  = False
         self.skylake_gpu    = False
@@ -62,20 +62,20 @@ class DetectRootPatch:
         self.legacy_vega    = False
 
         # Misc Patch Detection
-        self.brightness_legacy         = False
-        self.legacy_audio              = False
-        self.legacy_wifi               = False
-        self.modern_wifi               = False
-        self.legacy_gmux               = False
+        self.brightness_legacy         = True
+        self.legacy_audio              = True
+        self.legacy_wifi               = True
+        self.modern_wifi               = True
+        self.legacy_gmux               = True
         self.legacy_keyboard_backlight = False
-        self.legacy_uhci_ohci          = False
+        self.legacy_uhci_ohci          = True
         self.legacy_pcie_webcam        = False
         self.legacy_t1_chip            = False
 
         # Patch Requirements
-        self.amfi_must_disable   = False
+        self.amfi_must_disable   = True
         self.amfi_shim_bins      = False
-        self.supports_metal      = False
+        self.supports_metal      = True
         self.needs_nv_web_checks = False
         self.requires_root_kc    = False
 

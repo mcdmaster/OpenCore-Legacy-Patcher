@@ -819,11 +819,10 @@ class PatchSysVolume:
 
         if Path(destination_folder + "/" + file_name).exists():
             logging.info(f"  - Removing: {file_name}")
-            if Path(destination_folder + "/" + file_name).is_dir():
+            if file_name.endswith("kext") or file_name.endswith("bundle") or Path(destination_folder + "/" + file_name).is_dir():
                 utilities.process_status(utilities.elevated(["/bin/rm", "-R", f"{destination_folder}/{file_name}"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT))
             else:
-                utilities.process_status(utilities.elevated(["/bin/rm", f"{destination_folder}/{file_name}"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT))
-
+                utilities.process_status(utilities.elevated(["/bin/unlink", f"{destination_folder}/{file_name}"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT))
 
     def _fix_permissions(self, destination_file: Path) -> None:
         """

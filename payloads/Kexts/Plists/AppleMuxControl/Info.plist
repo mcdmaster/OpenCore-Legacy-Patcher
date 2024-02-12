@@ -350,6 +350,8 @@
 				<string>NVKernel</string>
 			</dict>
 			<key>IOClass</key>
+			<string>IOHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleMuxControl</string>
 			<key>IOMatchCategory</key>
 			<string>AppleMuxControl</string>

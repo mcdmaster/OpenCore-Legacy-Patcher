@@ -2,14 +2,6 @@
 # Copyright (C) 2020-2022, Dhinak G
 
 from typing import NewType, Union
-import objc
-
-from CoreFoundation import CFRelease, kCFAllocatorDefault  # type: ignore # pylint: disable=no-name-in-module
-from Foundation import NSBundle  # type: ignore # pylint: disable=no-name-in-module
-from PyObjCTools import Conversion
-
-IOKit_bundle = NSBundle.bundleWithIdentifier_("com.apple.framework.IOKit")
-
 # pylint: disable=invalid-name
 io_name_t_ref_out = b"[128c]"  # io_name_t is char[128]
 const_io_name_t_ref_in = b"r*"
@@ -63,10 +55,8 @@ io_registry_entry_t = io_object_t
 io_iterator_t = NewType("io_iterator_t", io_object_t)
 
 CFTypeRef = Union[int, float, bytes, dict, list]
-
 IOOptionBits = int
 mach_port_t = int
-CFAllocatorType = type(kCFAllocatorDefault)
 
 NULL = 0
 
@@ -79,16 +69,15 @@ kIORegistryIterateParents = 2
 
 # pylint: enable=invalid-name
 
-
 # kern_return_t IORegistryEntryCreateCFProperties(io_registry_entry_t entry, CFMutableDictionaryRef * properties, CFAllocatorRef allocator, IOOptionBits options);
-def IORegistryEntryCreateCFProperties(entry: io_registry_entry_t, properties: pointer, allocator: CFAllocatorType, options: IOOptionBits) -> tuple[kern_return_t, dict]:  # pylint: disable=invalid-name
-    raise NotImplementedError
+import CoreFoundation
 
+def IORegistryEntryCreateCFProperties(entry: io_registry_entry_t, properties: pointer, allocator: CoreFoundation.kCFAllocatorDefault, options: IOOptionBits) -> tuple[kern_return_t, dict]:  # pylint: disable=invalid-name
+    raise NotImplementedError
 
 # CFMutableDictionaryRef IOServiceMatching(const char * name);
 def IOServiceMatching(name: bytes) -> dict:  # pylint: disable=invalid-name
     raise NotImplementedError
-
 
 # kern_return_t IOServiceGetMatchingServices(mach_port_t masterPort, CFDictionaryRef matching CF_RELEASES_ARGUMENT, io_iterator_t * existing);
 def IOServiceGetMatchingServices(masterPort: mach_port_t, matching: dict, existing: pointer) -> tuple[kern_return_t, io_iterator_t]:  # pylint: disable=invalid-name
@@ -156,7 +145,7 @@ def IORegistryIteratorExitEntry(iterator: io_iterator_t) -> kern_return_t:  # py
 
 
 # CFTypeRef IORegistryEntryCreateCFProperty(io_registry_entry_t entry, CFStringRef key, CFAllocatorRef allocator, IOOptionBits options);
-def IORegistryEntryCreateCFProperty(entry: io_registry_entry_t, key: str, allocator: CFAllocatorType, options: IOOptionBits) -> CFTypeRef:  # pylint: disable=invalid-name
+def IORegistryEntryCreateCFProperty(entry: io_registry_entry_t, key: str, allocator: CoreFoundation.kCFAllocatorDefault, options: IOOptionBits) -> CFTypeRef:  # pylint: disable=invalid-name
     raise NotImplementedError
 
 
@@ -199,6 +188,11 @@ def IORegistryEntryIDMatching(entryID: int) -> dict:  # pylint: disable=invalid-
 def IORegistryEntryFromPath(mainPort: mach_port_t, path: io_string_t) -> io_registry_entry_t:  # pylint: disable=invalid-name
     raise NotImplementedError
 
+import objc
+
+from CoreFoundation import NSBundle
+
+IOKit_bundle = NSBundle.bundleWithIdentifier_("com.apple.framework.IOKit")
 
 objc.loadBundleFunctions(IOKit_bundle, globals(), functions)  # type: ignore # pylint: disable=no-member
 objc.loadBundleVariables(IOKit_bundle, globals(), variables)  # type: ignore # pylint: disable=no-member
@@ -214,17 +208,18 @@ def ioiterator_to_list(iterator: io_iterator_t):
     IOObjectRelease(iterator)  # noqa: F821
     # return items
 
-
 def corefoundation_to_native(collection):
     if collection is None:  # nullptr
         return None
-    native = Conversion.pythonCollectionFromPropertyList(collection)
-    CFRelease(collection)
+    import PyObjCTools
+    import CoreFoundation
+    native = PyObjCTools.Conversion.pythonCollectionFromPropertyList(collection)
+    CoreFoundation.CFRelease(collection)
     return native
 
-
 def native_to_corefoundation(native):
-    return Conversion.propertyListFromPythonCollection(native)
+    import PyObjCTools
+    return PyObjCTools.Conversion.propertyListFromPythonCollection(native)
 
 
 def io_name_t_to_str(name):
@@ -232,11 +227,12 @@ def io_name_t_to_str(name):
 
 
 def get_class_inheritance(io_object):
+    import CoreFoundation
     classes = []
     cls = IOObjectCopyClass(io_object)
     while cls:
         # yield cls
         classes.append(cls)
-        CFRelease(cls)
+        CoreFoundation.CFRelease(cls)
         cls = IOObjectCopySuperclassForClass(cls)
     return classes

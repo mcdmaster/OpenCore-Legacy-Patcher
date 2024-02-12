@@ -7,6 +7,7 @@ import itertools
 import subprocess
 import plistlib
 import hashlib
+
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Any, ClassVar, Optional, Type, Union
@@ -145,7 +146,7 @@ class PCIDevice:
 
     @classmethod
     def from_ioregistry(cls, entry: ioreg.io_registry_entry_t, anti_spoof=False):
-        properties: dict = ioreg.corefoundation_to_native(ioreg.IORegistryEntryCreateCFProperties(entry, None, ioreg.kCFAllocatorDefault, ioreg.kNilOptions)[1])  # type: ignore
+        properties: dict = ioreg.corefoundation_to_native(ioreg.IORegistryEntryCreateCFProperties(entry, None, ioreg.CFAllocatorRef, ioreg.kNilOptions)[1])  # type: ignore
 
         vendor_id = None
         device_id = None

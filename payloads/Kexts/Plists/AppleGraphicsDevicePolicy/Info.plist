@@ -146,6 +146,8 @@
 				<string></string>
 			</dict>
 			<key>IOClass</key>
+			<string>IOUserHIDDevice</string>
+			<key>IOUserClass</key>
 			<string>AppleGraphicsDevicePolicy</string>
 			<key>IOMatchCategory</key>
 			<string>AppleGraphicsDevicePolicy</string>

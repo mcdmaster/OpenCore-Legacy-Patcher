@@ -1,6 +1,6 @@
 # Entry point for the wxPython GUI
-import wx
 import sys
+import wx
 import atexit
 import logging
 
